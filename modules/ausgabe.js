@@ -10,7 +10,7 @@ export default async function Ausgabe(params) {
 
   ausg["Cover"] = ausg["Ausgabe"] + ".jpg";
   let pagehtml = `
-  <a class="back" href="#" onclick="window.history.back()">
+  <a class="back" onclick="window.history.back()">
     <i class="fas fa-arrow-left"></i>
   </a><br><br>
   <img class="cover" src="${json.baseUrl}hs/images/${ausg["Cover"]}"></img>
