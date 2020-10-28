@@ -39,10 +39,10 @@ export default async function Ausgabe(params) {
         <button>
           <i class="fas fa-download"></i>Download
           <div class="dropdown">
-            <a href="pdf/compressed/${ausg["Ausgabe"]}.pdf" download="hs_${ausg["Ausgabe"]}_lq.pdf">
+            <a href="${json.baseUrl}hs/pdf/compressed/${ausg["Ausgabe"]}.pdf" download="hs_${ausg["Ausgabe"]}_lq.pdf">
               <i class="fas fa-file-download"></i>Niedrige Qualität
             </a>
-            <a href="pdf/${ausg["Ausgabe"]}.pdf" download="hs_${ausg["Ausgabe"]}_hq.pdf">
+            <a href="${json.baseUrl}hs/pdf/${ausg["Ausgabe"]}.pdf" download="hs_${ausg["Ausgabe"]}_hq.pdf">
               <i class="fas fa-file-download"></i>Hohe Qualität
             </a>
           </div>
