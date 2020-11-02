@@ -2,25 +2,26 @@ name: deploy
 
 on:
   push:
-    branches: [ master ]
+    branches: [master]
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-        
+
       - name: Setup Node.js environment
-        uses: actions/setup-node@v2.1.2 
-        
+        uses: actions/setup-node@v2.1.2
+
       - name: Install dependencies
         run: npm i
 
       - name: Build
         run: npx parcel build src/index.html
-      
+
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }} 
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
+          cname: archiv.hertzschlag.eu
