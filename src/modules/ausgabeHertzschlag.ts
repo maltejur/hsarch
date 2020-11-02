@@ -2,7 +2,7 @@ import { checkFile } from "./utils";
 import json from "../../assets/data.json";
 import Page from "./page";
 
-export default function Ausgabe(params) {
+export default function AusgabeHertzschlag(params) {
   const ret = document.createElement("div");
 
   const ausg = json.hertzschlag.find((i) => i["Ausgabe"] == params.id);
@@ -35,10 +35,10 @@ export default function Ausgabe(params) {
         <button>
           <i class="fas fa-download"></i>Download
           <div class="dropdown">
-            <a href="${json.baseUrl}hertzschlag/pdf/compressed/${ausg["Ausgabe"]}.pdf" download="hertzschlag_${ausg["Ausgabe"]}_lq.pdf">
+            <a onclick="window.open('${json.baseUrl}hertzschlag/pdf/compressed/${ausg["Ausgabe"]}.pdf?download', '_self');">
               <i class="fas fa-file-download"></i>Niedrige Qualität
             </a>
-            <a href="${json.baseUrl}hertzschlag/pdf/${ausg["Ausgabe"]}.pdf" download="hertzschlag_${ausg["Ausgabe"]}_hq.pdf">
+            <a onclick="window.open('${json.baseUrl}hertzschlag/pdf/${ausg["Ausgabe"]}.pdf?download', '_self');">
               <i class="fas fa-file-download"></i>Hohe Qualität
             </a>
           </div>

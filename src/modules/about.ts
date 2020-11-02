@@ -1,4 +1,4 @@
-export default function Impressum() {
+export default function About() {
   const ret = document.createElement("div");
   ret.classList.add("pagewrapper");
   ret.innerHTML =

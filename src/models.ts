@@ -15,3 +15,9 @@ export interface HertzschlagAusgabe {
   Auflage?: number;
   yumpu?: string;
 }
+
+export interface HertzblattAusgabe {
+  Name: string;
+  Erscheinungsdatum: Date;
+  Ausgabe: string;
+}

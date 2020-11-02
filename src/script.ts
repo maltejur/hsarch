@@ -1,30 +1,57 @@
 import Home from "./modules/home";
-import Ausgabe from "./modules/ausgabeHertzschlag";
+import HomeHertzblatt from "./modules/homeHertzblatt";
+import AusgabeHertzschlag from "./modules/ausgabeHertzschlag";
+import AusgabeHertzblatt from "./modules/ausgabeHertzblatt";
+import HeaderHertzschlag from "./modules/headerHertzschlag";
+import HeaderHertzblatt from "./modules/headerHertzblatt";
 import Router from "./modules/router";
-import Impressum from "./modules/impressum";
+import About from "./modules/about";
 import Liste from "./modules/liste";
 import Pdf from "./modules/pdf";
 import NProgress from "nprogress/nprogress";
 import "nprogress/nprogress.css";
 
-document.getElementById("home").appendChild(Home());
-
 new Router(
   document.querySelector("#contentinner"),
   {
-    "": undefined,
-    "hertzschlag/:id": Ausgabe,
+    "hertzschlag/:id": AusgabeHertzschlag,
     "hertzschlag/:id/pdf": Pdf,
     "hertzschlag/liste": Liste,
-    impressum: Impressum,
+    "hertzblatt/:id": AusgabeHertzblatt,
+    "hertzblatt/:id/pdf": (params) => Pdf(params, "hertzblatt"),
+    about: About,
+  },
+  () => {}
+);
+
+new Router(
+  document.querySelector("#home"),
+  {
+    "": Home,
+    "hertzschlag/::": Home,
+    hertzblatt: HomeHertzblatt,
+    "hertzblatt/::": HomeHertzblatt,
   },
   (route) => {
-    if (route == "") {
+    if (route == "" || route == "hertzschlag" || route == "hertzblatt") {
       document.body.classList.remove("open");
     } else {
       document.body.classList.add("open");
     }
-  }
+  },
+  true
+);
+
+new Router(
+  document.querySelector("#innerHeader"),
+  {
+    "": HeaderHertzschlag,
+    "hertzschlag/::": HeaderHertzschlag,
+    hertzblatt: HeaderHertzblatt,
+    "hertzblatt/::": HeaderHertzblatt,
+  },
+  () => {},
+  true
 );
 
 // Entfert Ladebalken
@@ -32,6 +59,12 @@ document.addEventListener("readystatechange", (event) => {
   if (document.readyState == "complete") {
     NProgress.done();
   }
+});
+
+document.getElementById("back").addEventListener("click", () => {
+  window.location.hash = document
+    .getElementById("home")
+    .getAttribute("currentroute");
 });
 
 // Startet Ladebalken
