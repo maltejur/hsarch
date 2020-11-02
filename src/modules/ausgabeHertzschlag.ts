@@ -1,18 +1,14 @@
-import { checkFile } from "./utils.js";
+import { checkFile } from "./utils";
 import json from "../../assets/data.json";
+import Page from "./page";
 
 export default function Ausgabe(params) {
   const ret = document.createElement("div");
-  ret.classList.add("page");
 
   const ausg = json.hertzschlag.find((i) => i["Ausgabe"] == params.id);
 
-  ausg["Cover"] = ausg["Ausgabe"] + ".jpg";
   let pagehtml = `
-  <a class="back" onclick="window.history.back()">
-    <i class="fas fa-arrow-left"></i>
-  </a><br><br>
-  <img class="cover" src="${json.baseUrl}hertzschlag/images/${ausg["Cover"]}"></img>
+  <img class="cover" src="${json.baseUrl}hertzschlag/images/${ausg["Ausgabe"]}.jpg"></img>
   <h2>HertzSCHLAG ${ausg["Ausgabe"]}</h2>
   <h1>${ausg["Thema"]}</h1>
   `;
@@ -33,7 +29,7 @@ export default function Ausgabe(params) {
         ret.innerHTML +=
           // prettier-ignore
           `
-        <a class="button" href="#pdf/compressed/${ausg["Ausgabe"]}.pdf">
+        <a class="button" href="#hertzschlag/${ausg["Ausgabe"]}/pdf">
           <i class="fas fa-file-pdf"></i>PDF Anzeigen
         </a>
         <button>
@@ -53,5 +49,5 @@ export default function Ausgabe(params) {
   );
 
   ret.innerHTML = pagehtml;
-  return ret;
+  return Page(ret);
 }

@@ -1,11 +1,11 @@
 import json from "../../assets/data.json";
+import Page from "./page";
 
-export default async function Liste() {
+export default function Liste() {
   const ret = document.createElement("div");
-  ret.classList.add("page");
 
   let listehtml =
-    "<a class='back' onclick='window.history.back()'><i class='fas fa-arrow-left'></i></a><h1>Artikelliste</h1><table><tr><th>Ausgabe</th><th>Thema</th></tr>";
+    "<h1>Artikelliste</h1><table><tr><th>Ausgabe</th><th>Thema</th></tr>";
   json.hertzschlag.forEach((i) => {
     listehtml =
       listehtml +
@@ -24,5 +24,5 @@ export default async function Liste() {
   listehtml = listehtml + "</table>";
 
   ret.innerHTML = listehtml;
-  return ret;
+  return Page(ret);
 }

@@ -1,7 +1,17 @@
+import type { Routes } from "../models";
+
 export default class Router {
-  constructor(element, routes, { onpagechange = () => {} }) {
+  routes: Routes;
+  el: HTMLElement;
+  onpagechange: (route: string) => void;
+
+  constructor(
+    element: HTMLElement,
+    routes: Routes,
+    onpagechange: (route: string) => void
+  ) {
     this.routes = routes;
-    this.el = document.querySelector(element);
+    this.el = element;
     this.onpagechange = onpagechange;
     window.addEventListener("hashchange", this.onhashchange.bind(this));
     this.onhashchange();
@@ -14,7 +24,7 @@ export default class Router {
       const routeSplit = route.split("/");
       let params = {};
       let rigthRoute = true;
-      for (let i = 0; i < hashSplit.length; i++) {
+      for (let i = 0; i < routeSplit.length; i++) {
         if (routeSplit[i] != undefined && routeSplit[i][0] == ":") {
           if (routeSplit[i][1] == ":") {
             params[routeSplit[i].substr(2)] = hashSplit.slice(i).join("/");
