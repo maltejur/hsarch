@@ -1,11 +1,10 @@
 import { checkFile } from "./utils.js";
+import json from "../../assets/data.json";
 
-export default async function Ausgabe(params) {
+export default function Ausgabe(params) {
   const ret = document.createElement("div");
   ret.classList.add("page");
 
-  const response = await fetch("data.json");
-  const json = await response.json();
   const ausg = json.hertzschlag.find((i) => i["Ausgabe"] == params.id);
 
   ausg["Cover"] = ausg["Ausgabe"] + ".jpg";

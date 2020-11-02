@@ -1,9 +1,8 @@
+import json from "../../assets/data.json";
+
 export default async function Liste() {
   const ret = document.createElement("div");
   ret.classList.add("page");
-
-  const response = await fetch("data.json");
-  const json = await response.json();
 
   let listehtml =
     "<a class='back' onclick='window.history.back()'><i class='fas fa-arrow-left'></i></a><h1>Artikelliste</h1><table><tr><th>Ausgabe</th><th>Thema</th></tr>";

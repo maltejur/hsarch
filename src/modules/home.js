@@ -1,10 +1,9 @@
-export default async function Home() {
+import json from "../../assets/data.json";
+
+export default function Home() {
   const ret = document.createElement("div");
   ret.classList.add("grid");
   let html = "";
-
-  const response = await fetch("data.json");
-  const json = await response.json();
 
   json.hertzschlag.forEach((i) => {
     html += `

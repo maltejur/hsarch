@@ -1,7 +1,6 @@
-export default async function Pdf(params) {
-  const response = await fetch("data.json");
-  const json = await response.json();
+import json from "../../assets/data.json";
 
+export default function Pdf(params) {
   const ret = document.createElement("div");
   ret.classList.add("iframe");
 

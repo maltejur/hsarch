@@ -27,7 +27,7 @@ export default class Router {
 
       if (rigthRoute) {
         if (this.routes[route]) {
-          let neww = await this.routes[route](params);
+          let neww = this.routes[route](params);
           this.el.innerHTML = "";
           this.el.appendChild(neww);
         }

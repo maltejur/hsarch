@@ -14,6 +14,14 @@ body {
   width: 100%;
 }
 
+.bar {
+  background-color: white !important;
+}
+
+.peg {
+  box-shadow: none !important;
+}
+
 /* 
 ::-webkit-scrollbar {
   margin-top: 5em;

@@ -4,10 +4,10 @@ import Router from "./modules/router.js";
 import Impressum from "./modules/impressum.js";
 import Liste from "./modules/liste.js";
 import Pdf from "./modules/pdf.js";
+import NProgress from "nprogress/nprogress";
+import "nprogress/nprogress.css";
 
-Home().then((home) => {
-  document.getElementById("home").appendChild(home);
-});
+document.getElementById("home").appendChild(Home());
 
 new Router(
   "#contentinner",
