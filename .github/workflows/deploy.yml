@@ -1,15 +1,21 @@
-name: Build and deploy
+name: deploy
 
 on:
   push:
     branches: [ master ]
 
 jobs:
-  build:
+  build and deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      - name: Install parcel
+        uses: borales/actions-yarn@v2.0.0
+        with:
+          cmd: 
+            global add parcel-bundler
       - name: Build and deploy
         uses: borales/actions-yarn@v2.0.0
         with:
-          cmd: deploy
+          cmd: 
+            deploy
