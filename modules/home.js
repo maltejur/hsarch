@@ -6,10 +6,10 @@ export default async function Home() {
   const response = await fetch("data.json");
   const json = await response.json();
 
-  json.hs.forEach((i) => {
+  json.hertzschlag.forEach((i) => {
     html += `
       <a class="module" href="#ausgabe/${i.Ausgabe}">
-          <img src="${json.baseUrl}hs/images/${i.Ausgabe}.jpg" class="moduleImg"></img>
+          <img src="${json.baseUrl}hertzschlag/images/${i.Ausgabe}.jpg" class="moduleImg"></img>
           <div class="moduleLabel">
               <h3>HS ${i.Ausgabe}</h3>
               <h2>${i.Thema}</h2>

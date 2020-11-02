@@ -7,7 +7,7 @@ export default async function Liste() {
 
   let listehtml =
     "<a class='back' onclick='window.history.back()'><i class='fas fa-arrow-left'></i></a><h1>Artikelliste</h1><table><tr><th>Ausgabe</th><th>Thema</th></tr>";
-  json.hs.forEach((i) => {
+  json.hertzschlag.forEach((i) => {
     listehtml =
       listehtml +
       "<tr onclick='window.location=\"#ausgabe/" +

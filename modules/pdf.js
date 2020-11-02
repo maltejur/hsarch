@@ -6,7 +6,7 @@ export default async function Pdf(params) {
   ret.classList.add("iframe");
 
   const iframe = document.createElement("iframe");
-  iframe.src = `${json.baseUrl}hs/pdf/${params.src}`;
+  iframe.src = `${json.baseUrl}hertzschlag/pdf/${params.src}`;
 
   ret.appendChild(iframe);
   return ret;

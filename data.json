@@ -1,6 +1,6 @@
 {
   "baseUrl": "https://files.hertzschlag.eu/",
-  "hs": [
+  "hertzschlag": [
     {
       "Ausgabe": "1",
       "Thema": "Quo Vadis?",
