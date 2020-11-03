@@ -44,11 +44,9 @@ export default class Router {
         }
 
         if (rigthRoute) {
-          if (
-            this.el.getAttribute("currentroute") != routeSplit[0] ||
-            !this.lazy
-          ) {
-            this.el.setAttribute("currentroute", routeSplit[0]);
+          const routeName = routeSplit[0] == "hertzschlag" ? "" : routeSplit[0];
+          if (this.el.getAttribute("currentroute") != routeName || !this.lazy) {
+            this.el.setAttribute("currentroute", routeName);
             let neww = this.routes[route](params);
             this.el.innerHTML = "";
             this.el.appendChild(neww);

@@ -9,13 +9,13 @@ export default function Liste() {
   json.hertzschlag.forEach((i) => {
     listehtml =
       listehtml +
-      "<tr onclick='window.location=\"#ausgabe/" +
+      "<tr onclick='window.location=\"#hertzschlag/" +
       i["Ausgabe"] +
-      "\"'><td><a href='#ausgabe/" +
+      "\"'><td><a href='#hertzschlag/" +
       i["Ausgabe"] +
       "'>" +
       i["Ausgabe"] +
-      "</a></td><td><a href='#ausgabe/" +
+      "</a></td><td><a href='#hertzschlag/" +
       i["Ausgabe"] +
       "'>" +
       i["Thema"] +

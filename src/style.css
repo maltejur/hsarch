@@ -84,12 +84,12 @@ body {
   font-weight: 400 !important;
   font-size: 20px;
   margin-left: 15px;
-  transition: transform 0.2s ease;
-  transform: translateY(0);
+  transition: color 0.2s ease;
+  color: rgba(255, 255, 255, 1);
 }
 
 #header nav a:hover {
-  transform: translateY(-2px);
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .welle-l {
@@ -122,7 +122,8 @@ body {
   overflow-x: hidden;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   grid-gap: 0;
-  height: 100%;
+  height: calc(100% - 5em);
+  padding-top: 5em;
 }
 
 .module {
@@ -377,7 +378,6 @@ i {
 
 #home {
   position: fixed;
-  padding-top: 5em;
   top: 0;
   bottom: 0;
   left: 0;

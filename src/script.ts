@@ -28,6 +28,7 @@ new Router(
   document.querySelector("#home"),
   {
     "": Home,
+    hertzschlag: Home,
     "hertzschlag/::": Home,
     hertzblatt: HomeHertzblatt,
     "hertzblatt/::": HomeHertzblatt,
@@ -46,6 +47,7 @@ new Router(
   document.querySelector("#innerHeader"),
   {
     "": HeaderHertzschlag,
+    hertzschlag: HeaderHertzschlag,
     "hertzschlag/::": HeaderHertzschlag,
     hertzblatt: HeaderHertzblatt,
     "hertzblatt/::": HeaderHertzblatt,

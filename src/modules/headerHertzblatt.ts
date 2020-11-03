@@ -6,7 +6,7 @@ export default function HeaderHertzschlag() {
     <h1>hertz heute / HertzBLATT Archiv</h1>
   </a>
   <nav>
-    <a href="#" style="margin-left: 25px">HertzSCHLAG</a>
+    <a href="#" style="margin-left: 25px">HertzSCHLAG Archiv</a>
   </nav>
   `;
 
