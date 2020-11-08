@@ -1,4 +1,4 @@
-import type { Routes } from "../models";
+import type { Routes } from "./models";
 
 export default class Router {
   routes: Routes;

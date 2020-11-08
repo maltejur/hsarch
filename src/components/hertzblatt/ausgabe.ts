@@ -1,6 +1,6 @@
-import { checkFile } from "./utils";
-import json from "../../assets/data.json";
-import Page from "./page";
+import { checkFile } from "../../utils";
+import json from "../../../assets/data.json";
+import Page from "../page";
 
 export default function AusgabeHertzblatt(params) {
   const ret = document.createElement("div");

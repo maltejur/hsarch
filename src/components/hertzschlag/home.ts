@@ -1,4 +1,4 @@
-import json from "../../assets/data.json";
+import json from "../../../assets/data.json";
 
 export default function Home() {
   const ret = document.createElement("div");

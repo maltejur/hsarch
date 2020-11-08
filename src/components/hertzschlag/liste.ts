@@ -1,5 +1,5 @@
-import json from "../../assets/data.json";
-import Page from "./page";
+import json from "../../../assets/data.json";
+import Page from "../page";
 
 export default function Liste() {
   const ret = document.createElement("div");
