@@ -1,4 +1,4 @@
-import json from "../../../assets/data.json";
+import json from "../../assets/data.json";
 
 export default function HomeHertzblatt() {
   const ret = document.createElement("div");

@@ -1,18 +1,15 @@
-import Home from "./components/hertzschlag/home";
-import HomeHertzblatt from "./components/hertzblatt/home";
-import AusgabeHertzschlag from "./components/hertzschlag/ausgabe";
-import AusgabeHertzblatt from "./components/hertzblatt/ausgabe";
-import HeaderHertzschlag from "./components/hertzschlag/header";
-import HeaderHertzblatt from "./components/hertzblatt/header";
-import Router from "./router";
-import About from "./components/about";
-import Liste from "./components/hertzschlag/liste";
-import Pdf from "./components/pdf";
+import Home from "./modules/home";
+import HomeHertzblatt from "./modules/homeHertzblatt";
+import AusgabeHertzschlag from "./modules/ausgabeHertzschlag";
+import AusgabeHertzblatt from "./modules/ausgabeHertzblatt";
+import HeaderHertzschlag from "./modules/headerHertzschlag";
+import HeaderHertzblatt from "./modules/headerHertzblatt";
+import Router from "./modules/router";
+import About from "./modules/about";
+import Liste from "./modules/liste";
+import Pdf from "./modules/pdf";
 import NProgress from "nprogress/nprogress";
 import "nprogress/nprogress.css";
-import "./material.scss";
-// import "material-components-web/dist/material-components-web.min.js";
-// import "material-components-web/dist/material-components-web.min.css";
 
 new Router(
   document.querySelector("#contentinner"),

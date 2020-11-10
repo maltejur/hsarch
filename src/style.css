@@ -20,11 +20,6 @@ body {
   box-shadow: none !important;
 }
 
-:root {
-  --mdc-theme-primary: rgb(201, 2, 2) !important;
-  --mdc-theme-secondary: white !important;
-}
-
 /* 
 ::-webkit-scrollbar {
   margin-top: 5em;
@@ -165,12 +160,7 @@ body {
   transform: translateY(-4px);
 }
 
-.mdc-button {
-  margin-right: 1em;
-  margin-bottom: 1em;
-}
-
-/* button,
+button,
 .button {
   background-color: rgb(201, 2, 2);
   border: none;
@@ -196,7 +186,7 @@ button:hover,
 button .fas,
 .button .fas {
   margin-right: 0.6em;
-} */
+}
 
 button .dropdown,
 .button .dropdown {

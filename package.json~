@@ -11,7 +11,8 @@
   },
   "scripts": {
     "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "build": "parcel build src/index.html",
+    "deploy": "yarn build && gh-pages -d dist"
   },
   "dependencies": {
     "nprogress": "^0.2.0"
