@@ -1,0 +1,871 @@
+{
+  "baseUrl": "https://files.hertzschlag.eu/",
+  "hs": [
+    {
+      "Ausgabe": "1",
+      "Thema": "Quo Vadis?",
+      "Seitenzahl": "12",
+      "Erscheinungsdatum": "Nov.-91",
+      "Chefredakteur(-e)": "Steffen Micheel",
+      "Umschlag/Innenteil": "SW/SW",
+      "Preis": "0,50 DM",
+      "Auflage": null
+    },
+    {
+      "Ausgabe": "2",
+      "Thema": "Advent",
+      "Seitenzahl": "12",
+      "Erscheinungsdatum": "Dez.-91",
+      "Chefredakteur(-e)": "Steffen Micheel",
+      "Umschlag/Innenteil": "SW/SW",
+      "Preis": "0,50 DM",
+      "Auflage": null
+    },
+    {
+      "Ausgabe": "3",
+      "Thema": "Be(a)st of Teachers '91",
+      "Seitenzahl": "12",
+      "Erscheinungsdatum": "Jan.-92",
+      "Chefredakteur(-e)": "Steffen Micheel",
+      "Umschlag/Innenteil": "SW/SW",
+      "Preis": "0,50 DM",
+      "Auflage": null
+    },
+    {
+      "Ausgabe": "Extra 3",
+      "Thema": "Sonderausgabe - 30 Jahre H2O",
+      "Seitenzahl": "20",
+      "Erscheinungsdatum": "Feb.-92",
+      "Chefredakteur(-e)": "Steffen Micheel",
+      "Umschlag/Innenteil": "SW/SW",
+      "Preis": "0,50 DM",
+      "Auflage": null
+    },
+    {
+      "Ausgabe": "4",
+      "Thema": "[Ohne Titel]",
+      "Seitenzahl": "20",
+      "Erscheinungsdatum": "Apr.-92",
+      "Chefredakteur(-e)": "Steffen Micheel",
+      "Umschlag/Innenteil": "SW/SW",
+      "Preis": "0,50 DM",
+      "Auflage": null
+    },
+    {
+      "Ausgabe": "5",
+      "Thema": "Unsere Zukunft",
+      "Seitenzahl": "16",
+      "Erscheinungsdatum": "Juni-92",
+      "Chefredakteur(-e)": "Steffen Micheel",
+      "Umschlag/Innenteil": "SW/SW",
+      "Preis": "0,50 DM",
+      "Auflage": null
+    },
+    {
+      "Ausgabe": "6",
+      "Thema": "HertzSCHLAG in der Krise?",
+      "Seitenzahl": "16",
+      "Erscheinungsdatum": "Okt.-92",
+      "Chefredakteur(-e)": "Steffen Micheel",
+      "Umschlag/Innenteil": "SW/SW",
+      "Preis": "0,50 DM",
+      "Auflage": null
+    },
+    {
+      "Ausgabe": "7",
+      "Thema": "Danger - Restricted Area",
+      "Seitenzahl": "32",
+      "Erscheinungsdatum": "Dez.-92",
+      "Chefredakteur(-e)": "Steffen Micheel",
+      "Umschlag/Innenteil": "SW/SW",
+      "Preis": "0,50 DM",
+      "Auflage": null
+    },
+    {
+      "Ausgabe": "8",
+      "Thema": "Die Zetteltragödie",
+      "Seitenzahl": "40",
+      "Erscheinungsdatum": "Feb.-93",
+      "Chefredakteur(-e)": "Steffen Micheel",
+      "Umschlag/Innenteil": "SW/SW",
+      "Preis": "0,50 DM",
+      "Auflage": null
+    },
+    {
+      "Ausgabe": "9",
+      "Thema": "Wir schießen den Vogel ab",
+      "Seitenzahl": "68",
+      "Erscheinungsdatum": "Apr.-93",
+      "Chefredakteur(-e)": "Steffen Micheel",
+      "Umschlag/Innenteil": "SW/SW",
+      "Preis": "0,50 DM",
+      "Auflage": null
+    },
+    {
+      "Ausgabe": "10",
+      "Thema": "Das Wort zum Donnerstag",
+      "Seitenzahl": "32",
+      "Erscheinungsdatum": "Juni-93",
+      "Chefredakteur(-e)": "Alexander Hlawenka",
+      "Umschlag/Innenteil": "SW/SW",
+      "Preis": "0,50 DM",
+      "Auflage": null
+    },
+    {
+      "Ausgabe": "11",
+      "Thema": "…und wir wissen alles über dich",
+      "Seitenzahl": "44",
+      "Erscheinungsdatum": "Okt.-93",
+      "Chefredakteur(-e)": "Alexander Hlawenka",
+      "Umschlag/Innenteil": "SW/SW",
+      "Preis": "0,50 DM",
+      "Auflage": null
+    },
+    {
+      "Ausgabe": "12",
+      "Thema": "Heinrich hertz auf der Flucht",
+      "Seitenzahl": "40",
+      "Erscheinungsdatum": "Jan.-94",
+      "Chefredakteur(-e)": "Alexander Hlawenka",
+      "Umschlag/Innenteil": "SW/SW",
+      "Preis": "0,50 DM",
+      "Auflage": null
+    },
+    {
+      "Ausgabe": "13",
+      "Thema": "Projektwoche -Wohin?",
+      "Seitenzahl": "68",
+      "Erscheinungsdatum": "März-94",
+      "Chefredakteur(-e)": "Alexander Hlawenka",
+      "Umschlag/Innenteil": "SW/SW",
+      "Preis": "0,50 DM",
+      "Auflage": null
+    },
+    {
+      "Ausgabe": "14",
+      "Thema": "[Ohne Titel]",
+      "Seitenzahl": "48",
+      "Erscheinungsdatum": "Mai-94",
+      "Chefredakteur(-e)": "Alexander Hlawenka",
+      "Umschlag/Innenteil": "SW/SW",
+      "Preis": "0,50 DM",
+      "Auflage": null
+    },
+    {
+      "Ausgabe": "15",
+      "Thema": "Hertz zieht um",
+      "Seitenzahl": "40",
+      "Erscheinungsdatum": "Dez.-94",
+      "Chefredakteur(-e)": "Alexander Hlawenka",
+      "Umschlag/Innenteil": "SW/SW",
+      "Preis": "0,50 DM",
+      "Auflage": null
+    },
+    {
+      "Ausgabe": "16",
+      "Thema": "Die Kulturausgabe",
+      "Seitenzahl": "44",
+      "Erscheinungsdatum": "März-95",
+      "Chefredakteur(-e)": "Alexander Hlawenka",
+      "Umschlag/Innenteil": "SW/SW",
+      "Preis": "0,50 DM",
+      "Auflage": null
+    },
+    {
+      "Ausgabe": "17",
+      "Thema": "Color",
+      "Seitenzahl": "52",
+      "Erscheinungsdatum": "Mai-95",
+      "Chefredakteur(-e)": "Alexander Hlawenka",
+      "Umschlag/Innenteil": "SW/SW",
+      "Preis": "0,50 DM",
+      "Auflage": null
+    },
+    {
+      "Ausgabe": "18",
+      "Thema": "King Jacques - USA gegen Chirac",
+      "Seitenzahl": "48",
+      "Erscheinungsdatum": "Nov.-95",
+      "Chefredakteur(-e)": "Peter Hartig",
+      "Umschlag/Innenteil": "SW/SW",
+      "Preis": "0,50 DM",
+      "Auflage": null
+    },
+    {
+      "Ausgabe": "19",
+      "Thema": "Ruanda",
+      "Seitenzahl": "40",
+      "Erscheinungsdatum": "Jan.-96",
+      "Chefredakteur(-e)": "Peter Hartig",
+      "Umschlag/Innenteil": "SW/SW",
+      "Preis": "0,50 DM",
+      "Auflage": null
+    },
+    {
+      "Ausgabe": "20",
+      "Thema": "Rassismus",
+      "Seitenzahl": "36",
+      "Erscheinungsdatum": "Juni-96",
+      "Chefredakteur(-e)": "Peter Hartig",
+      "Umschlag/Innenteil": "SW/SW",
+      "Preis": "0,50 DM",
+      "Auflage": null
+    },
+    {
+      "Ausgabe": "21",
+      "Thema": "Hetzerische Springerpresse",
+      "Seitenzahl": "52",
+      "Erscheinungsdatum": "Aug.-96",
+      "Chefredakteur(-e)": "Peter Hartig",
+      "Umschlag/Innenteil": "SW/SW",
+      "Preis": "0,50 DM",
+      "Auflage": null
+    },
+    {
+      "Ausgabe": "Extra 21",
+      "Thema": "Sonderausgabe - 35 Jahre H2O",
+      "Seitenzahl": "60",
+      "Erscheinungsdatum": "Feb.-97",
+      "Chefredakteur(-e)": "Peter Hartig",
+      "Umschlag/Innenteil": "SW/SW",
+      "Preis": "0,50 DM",
+      "Auflage": null
+    },
+    {
+      "Ausgabe": "22",
+      "Thema": "KirchTV",
+      "Seitenzahl": "56",
+      "Erscheinungsdatum": "Mai-97",
+      "Chefredakteur(-e)": "Peter Hartig",
+      "Umschlag/Innenteil": "SW/SW",
+      "Preis": "0,50 DM",
+      "Auflage": null
+    },
+    {
+      "Ausgabe": "23",
+      "Thema": "Projektwoche '97",
+      "Seitenzahl": "40",
+      "Erscheinungsdatum": "Sept.-97",
+      "Chefredakteur(-e)": "Jenny Simon",
+      "Umschlag/Innenteil": "SW/SW",
+      "Preis": "0,50 DM",
+      "Auflage": null
+    },
+    {
+      "Ausgabe": "24",
+      "Thema": "It's just natural",
+      "Seitenzahl": "40",
+      "Erscheinungsdatum": "Okt.-97",
+      "Chefredakteur(-e)": "Jenny Simon",
+      "Umschlag/Innenteil": "SW/SW",
+      "Preis": "0,50 DM",
+      "Auflage": null
+    },
+    {
+      "Ausgabe": "25",
+      "Thema": "Wacht endlich auf!",
+      "Seitenzahl": "40",
+      "Erscheinungsdatum": "Feb.-98",
+      "Chefredakteur(-e)": "Jenny Simon",
+      "Umschlag/Innenteil": "SW/SW",
+      "Preis": "0,50 DM",
+      "Auflage": null
+    },
+    {
+      "Ausgabe": "26",
+      "Thema": "Frühling",
+      "Seitenzahl": "44",
+      "Erscheinungsdatum": "Juni-98",
+      "Chefredakteur(-e)": "Jenny Simon",
+      "Umschlag/Innenteil": "SW/SW",
+      "Preis": "0,50 DM",
+      "Auflage": null
+    },
+    {
+      "Ausgabe": "27",
+      "Thema": "Andere Wege",
+      "Seitenzahl": "40",
+      "Erscheinungsdatum": "Sept.-98",
+      "Chefredakteur(-e)": "Jenny Simon",
+      "Umschlag/Innenteil": "SW/SW",
+      "Preis": "0,50 DM",
+      "Auflage": null
+    },
+    {
+      "Ausgabe": "28",
+      "Thema": "Wir sind wieder da!",
+      "Seitenzahl": "36",
+      "Erscheinungsdatum": "Jan.-99",
+      "Chefredakteur(-e)": "Jenny Simon",
+      "Umschlag/Innenteil": "SW/SW",
+      "Preis": "0,50 DM",
+      "Auflage": null
+    },
+    {
+      "Ausgabe": "29",
+      "Thema": "Frohe Ostern",
+      "Seitenzahl": "44",
+      "Erscheinungsdatum": "Apr.-99",
+      "Chefredakteur(-e)": "Jenny Simon",
+      "Umschlag/Innenteil": "SW/SW",
+      "Preis": "0,50 DM",
+      "Auflage": null
+    },
+    {
+      "Ausgabe": "30",
+      "Thema": "Jubiläumsausgabe - 30 Ausgaben",
+      "Seitenzahl": "72",
+      "Erscheinungsdatum": "Juli-99",
+      "Chefredakteur(-e)": "Jenny Simon",
+      "Umschlag/Innenteil": "Farbpapier/SW",
+      "Preis": "0,50 DM",
+      "Auflage": null
+    },
+    {
+      "Ausgabe": "31",
+      "Thema": "Projektwoche '99",
+      "Seitenzahl": "48",
+      "Erscheinungsdatum": "Nov.-99",
+      "Chefredakteur(-e)": "Jenny Simon",
+      "Umschlag/Innenteil": "Farbpapier/SW",
+      "Preis": "0,50 DM",
+      "Auflage": null
+    },
+    {
+      "Ausgabe": "32",
+      "Thema": "Ist das Bildung?",
+      "Seitenzahl": "36",
+      "Erscheinungsdatum": "März-00",
+      "Chefredakteur(-e)": "Jenny Simon",
+      "Umschlag/Innenteil": "Farbpapier/SW",
+      "Preis": "0,50 DM",
+      "Auflage": null
+    },
+    {
+      "Ausgabe": "33",
+      "Thema": "Medien",
+      "Seitenzahl": "36",
+      "Erscheinungsdatum": "Dez.-00",
+      "Chefredakteur(-e)": "Katja Leuschner, Antonia Reglin, Caroline Stiel",
+      "Umschlag/Innenteil": "Farbpapier/SW",
+      "Preis": "0,50 DM",
+      "Auflage": null
+    },
+    {
+      "Ausgabe": "34",
+      "Thema": "Alles über Drogen",
+      "Seitenzahl": "28",
+      "Erscheinungsdatum": "Juli-01",
+      "Chefredakteur(-e)": "Katja Leuschner, Antonia Reglin, Caroline Stiel",
+      "Umschlag/Innenteil": "Farbpapier/SW",
+      "Preis": "0,50 DM",
+      "Auflage": null
+    },
+    {
+      "Ausgabe": "Sonderausgabe 2001",
+      "Thema": "Absolvententreffen",
+      "Seitenzahl": "4",
+      "Erscheinungsdatum": "Nov.-01",
+      "Chefredakteur(-e)": null,
+      "Umschlag/Innenteil": "SW/SW",
+      "Preis": null,
+      "Auflage": null
+    },
+    {
+      "Ausgabe": "35",
+      "Thema": "Religionen",
+      "Seitenzahl": "32",
+      "Erscheinungsdatum": "Juni-03",
+      "Chefredakteur(-e)": "Michael Meinel",
+      "Umschlag/Innenteil": "Farbpapier/SW",
+      "Preis": "0,50 €",
+      "Auflage": null
+    },
+    {
+      "Ausgabe": "36",
+      "Thema": "Septemberabend",
+      "Seitenzahl": "44",
+      "Erscheinungsdatum": "Sept.-03",
+      "Chefredakteur(-e)": "Sebastian Haupt",
+      "Umschlag/Innenteil": "Farbpapier/SW",
+      "Preis": "0,50 €",
+      "Auflage": null
+    },
+    {
+      "Ausgabe": "Extra 36",
+      "Thema": "Das alles sind wir",
+      "Seitenzahl": "24",
+      "Erscheinungsdatum": "Nov.-03",
+      "Chefredakteur(-e)": "Jonathan Berchner",
+      "Umschlag/Innenteil": "Farbpapier/SW",
+      "Preis": "0,50 €",
+      "Auflage": null
+    },
+    {
+      "Ausgabe": "37",
+      "Thema": "Rauschebart vs. Glatze",
+      "Seitenzahl": "44",
+      "Erscheinungsdatum": "Dez.-03",
+      "Chefredakteur(-e)": "Jonathan Berchner",
+      "Umschlag/Innenteil": "Farbpapier/SW",
+      "Preis": "0,50 €",
+      "Auflage": null
+    },
+    {
+      "Ausgabe": "38",
+      "Thema": "Biologisch, praktisch, gut",
+      "Seitenzahl": "56",
+      "Erscheinungsdatum": "Feb.-04",
+      "Chefredakteur(-e)": "Jonathan Berchner",
+      "Umschlag/Innenteil": "Farbpapier/SW",
+      "Preis": "0,50 €",
+      "Auflage": null
+    },
+    {
+      "Ausgabe": "39",
+      "Thema": "Monster",
+      "Seitenzahl": "52",
+      "Erscheinungsdatum": "Juni-04",
+      "Chefredakteur(-e)": "Jonathan Berchner",
+      "Umschlag/Innenteil": "Farbpapier/SW",
+      "Preis": "0,50 €",
+      "Auflage": null
+    },
+    {
+      "Ausgabe": "40",
+      "Thema": "Aufbruch Umbruch",
+      "Seitenzahl": "52",
+      "Erscheinungsdatum": "Sept.-04",
+      "Chefredakteur(-e)": "Jonathan Berchner",
+      "Umschlag/Innenteil": "Farbpapier/SW",
+      "Preis": "0,50 €",
+      "Auflage": null
+    },
+    {
+      "Ausgabe": "41",
+      "Thema": "Idole und Ideale",
+      "Seitenzahl": "52",
+      "Erscheinungsdatum": "Nov.-04",
+      "Chefredakteur(-e)": "Jonathan Berchner",
+      "Umschlag/Innenteil": "Farbpapier/SW",
+      "Preis": "0,50 €",
+      "Auflage": null
+    },
+    {
+      "Ausgabe": "42",
+      "Thema": "Reindeer Maze",
+      "Seitenzahl": "48",
+      "Erscheinungsdatum": "Dez.-04",
+      "Chefredakteur(-e)": "Jonathan Berchner",
+      "Umschlag/Innenteil": "Farbpapier/SW",
+      "Preis": "0,50 €",
+      "Auflage": null
+    },
+    {
+      "Ausgabe": "43",
+      "Thema": "Kinder!",
+      "Seitenzahl": "52",
+      "Erscheinungsdatum": "März-05",
+      "Chefredakteur(-e)": "Jonathan Berchner",
+      "Umschlag/Innenteil": "Farbpapier/SW",
+      "Preis": "0,50 €",
+      "Auflage": null
+    },
+    {
+      "Ausgabe": "44",
+      "Thema": "Asien",
+      "Seitenzahl": "40",
+      "Erscheinungsdatum": "Juni-05",
+      "Chefredakteur(-e)": "Jonathan Berchner",
+      "Umschlag/Innenteil": "Farbpapier/SW",
+      "Preis": "0,50 €",
+      "Auflage": null
+    },
+    {
+      "Ausgabe": "45",
+      "Thema": "Zukunftsvisionen",
+      "Seitenzahl": "40",
+      "Erscheinungsdatum": "Sept.-05",
+      "Chefredakteur(-e)": "Anne Künne",
+      "Umschlag/Innenteil": "Farbpapier/SW",
+      "Preis": "0,50 €",
+      "Auflage": null
+    },
+    {
+      "Ausgabe": "46",
+      "Thema": "Löcher",
+      "Seitenzahl": "36",
+      "Erscheinungsdatum": "Dez.-05",
+      "Chefredakteur(-e)": "Anne Künne",
+      "Umschlag/Innenteil": "Farbpapier/SW",
+      "Preis": "0,50 €",
+      "Auflage": null
+    },
+    {
+      "Ausgabe": "47",
+      "Thema": "Lärm",
+      "Seitenzahl": "40",
+      "Erscheinungsdatum": "Jan.-06",
+      "Chefredakteur(-e)": "Anne Künne",
+      "Umschlag/Innenteil": "Farbpapier/SW",
+      "Preis": "0,50 €",
+      "Auflage": null
+    },
+    {
+      "Ausgabe": "48",
+      "Thema": "Hass",
+      "Seitenzahl": "44",
+      "Erscheinungsdatum": "Feb.-06",
+      "Chefredakteur(-e)": "Anne Künne",
+      "Umschlag/Innenteil": "Farbpapier/SW",
+      "Preis": "0,50 €",
+      "Auflage": null
+    },
+    {
+      "Ausgabe": "49",
+      "Thema": "Bienchen und Blümchen",
+      "Seitenzahl": "48",
+      "Erscheinungsdatum": "Juni-06",
+      "Chefredakteur(-e)": "Anne Künne",
+      "Umschlag/Innenteil": "Farbpapier/SW",
+      "Preis": "0,50 €",
+      "Auflage": null
+    },
+    {
+      "Ausgabe": "50",
+      "Thema": "Cambia, todo Cambia",
+      "Seitenzahl": "68",
+      "Erscheinungsdatum": "Juli-06",
+      "Chefredakteur(-e)": "Anne Künne",
+      "Umschlag/Innenteil": "Farbpapier/SW",
+      "Preis": "0,50 €",
+      "Auflage": null
+    },
+    {
+      "Ausgabe": "51",
+      "Thema": "15 Jahre HertzSCHLAG",
+      "Seitenzahl": "48",
+      "Erscheinungsdatum": "Nov.-06",
+      "Chefredakteur(-e)": "Anne Künne",
+      "Umschlag/Innenteil": "Farbpapier/SW",
+      "Preis": "0,50 €",
+      "Auflage": null
+    },
+    {
+      "Ausgabe": "52",
+      "Thema": "Glühwein und Kunstschnee",
+      "Seitenzahl": "40",
+      "Erscheinungsdatum": "Dez.-06",
+      "Chefredakteur(-e)": "Anne Künne",
+      "Umschlag/Innenteil": "Farbpapier/SW",
+      "Preis": "0,50 €",
+      "Auflage": null
+    },
+    {
+      "Ausgabe": "53",
+      "Thema": "Südafrika",
+      "Seitenzahl": "60",
+      "Erscheinungsdatum": "Jan.-07",
+      "Chefredakteur(-e)": "Anne Künne",
+      "Umschlag/Innenteil": "Farbpapier/SW",
+      "Preis": "0,50 €",
+      "Auflage": null
+    },
+    {
+      "Ausgabe": "Extra 53",
+      "Thema": "Sonderausgabe - 150 Jahre H. Hertz",
+      "Seitenzahl": "24",
+      "Erscheinungsdatum": "Feb.-07",
+      "Chefredakteur(-e)": "Anne Künne",
+      "Umschlag/Innenteil": "Farbpapier/SW",
+      "Preis": "0,50 €",
+      "Auflage": null
+    },
+    {
+      "Ausgabe": "54",
+      "Thema": "Knuts Tagebücher entdeckt",
+      "Seitenzahl": "40",
+      "Erscheinungsdatum": "Juni-07",
+      "Chefredakteur(-e)": "Anne Künne",
+      "Umschlag/Innenteil": "Farbpapier/SW",
+      "Preis": "0,50 €",
+      "Auflage": null
+    },
+    {
+      "Ausgabe": "55",
+      "Thema": "Medien, Markt und Machenschaften",
+      "Seitenzahl": "36",
+      "Erscheinungsdatum": "Okt.-07",
+      "Chefredakteur(-e)": "Mathias Lück",
+      "Umschlag/Innenteil": "Farbpapier/SW",
+      "Preis": "0,50 €",
+      "Auflage": null
+    },
+    {
+      "Ausgabe": "56",
+      "Thema": "Winter",
+      "Seitenzahl": "48",
+      "Erscheinungsdatum": "Dez.-07",
+      "Chefredakteur(-e)": "Mathias Lück",
+      "Umschlag/Innenteil": "Farbpapier/SW",
+      "Preis": "0,50 €",
+      "Auflage": null
+    },
+    {
+      "Ausgabe": "57",
+      "Thema": "Dagegen",
+      "Seitenzahl": "52",
+      "Erscheinungsdatum": "Apr.-08",
+      "Chefredakteur(-e)": "Mathias Lück",
+      "Umschlag/Innenteil": "Farbpapier/SW",
+      "Preis": "0,50 €",
+      "Auflage": null
+    },
+    {
+      "Ausgabe": "58",
+      "Thema": "Lebensgeschichten",
+      "Seitenzahl": "52",
+      "Erscheinungsdatum": "Juli-08",
+      "Chefredakteur(-e)": "Jakob Saß",
+      "Umschlag/Innenteil": "Farbpapier/SW",
+      "Preis": "0,50 €",
+      "Auflage": null
+    },
+    {
+      "Ausgabe": "59",
+      "Thema": "Allles neu!",
+      "Seitenzahl": "68",
+      "Erscheinungsdatum": "Nov.-08",
+      "Chefredakteur(-e)": "Jakob Saß",
+      "Umschlag/Innenteil": "Farbe/SW",
+      "Preis": "0,50 €",
+      "Auflage": null
+    },
+    {
+      "Ausgabe": "60",
+      "Thema": "Berlin",
+      "Seitenzahl": "68",
+      "Erscheinungsdatum": "Apr.-09",
+      "Chefredakteur(-e)": "Jakob Saß",
+      "Umschlag/Innenteil": "Farbe/SW",
+      "Preis": "0,50 €",
+      "Auflage": null
+    },
+    {
+      "Ausgabe": "61",
+      "Thema": "Pro Reli",
+      "Seitenzahl": "44",
+      "Erscheinungsdatum": "Apr.-09",
+      "Chefredakteur(-e)": "Jakob Saß",
+      "Umschlag/Innenteil": "Farbe/SW",
+      "Preis": "0,50 €",
+      "Auflage": null
+    },
+    {
+      "Ausgabe": "62",
+      "Thema": "Gibt es eine Welt da draußen?",
+      "Seitenzahl": "72",
+      "Erscheinungsdatum": "Juli-09",
+      "Chefredakteur(-e)": "Jakob Saß",
+      "Umschlag/Innenteil": "Farbe/SW",
+      "Preis": "0,50 €",
+      "Auflage": null
+    },
+    {
+      "Ausgabe": "63",
+      "Thema": "Deutschland - Ein Tigerentenclub?",
+      "Seitenzahl": "80",
+      "Erscheinungsdatum": "Dez.-09",
+      "Chefredakteur(-e)": "Jakob Saß",
+      "Umschlag/Innenteil": "Farbe/SW",
+      "Preis": "0,50 €",
+      "Auflage": null
+    },
+    {
+      "Ausgabe": "64",
+      "Thema": "Verboten?!",
+      "Seitenzahl": "60",
+      "Erscheinungsdatum": "Apr.-10",
+      "Chefredakteur(-e)": "Jakob Saß",
+      "Umschlag/Innenteil": "Farbe/SW",
+      "Preis": "0,50 €",
+      "Auflage": 250
+    },
+    {
+      "Ausgabe": "65",
+      "Thema": "Freiheit",
+      "Seitenzahl": "56",
+      "Erscheinungsdatum": "Jan.-11",
+      "Chefredakteur(-e)": "Jakob Saß",
+      "Umschlag/Innenteil": "Farbe/SW",
+      "Preis": "0,50 €",
+      "Auflage": null
+    },
+    {
+      "Ausgabe": "66",
+      "Thema": "Medien",
+      "Seitenzahl": "68",
+      "Erscheinungsdatum": "Juni-11",
+      "Chefredakteur(-e)": "Lisa-Michelle Zink",
+      "Umschlag/Innenteil": "Farbe/SW",
+      "Preis": "0,50 €",
+      "Auflage": 300
+    },
+    {
+      "Ausgabe": "67",
+      "Thema": "Baustelle Schule",
+      "Seitenzahl": "64",
+      "Erscheinungsdatum": "Sept.-11",
+      "Chefredakteur(-e)": "Louise Dittmar",
+      "Umschlag/Innenteil": "Farbe/SW",
+      "Preis": "0,50 €",
+      "Auflage": 300
+    },
+    {
+      "Ausgabe": "68",
+      "Thema": "Schlaf",
+      "Seitenzahl": "64",
+      "Erscheinungsdatum": "Dez.-12",
+      "Chefredakteur(-e)": "Louise Dittmar",
+      "Umschlag/Innenteil": "Farbe/SW",
+      "Preis": "0,50 €",
+      "Auflage": null
+    },
+    {
+      "Ausgabe": "69",
+      "Thema": "Umwelt",
+      "Seitenzahl": "60",
+      "Erscheinungsdatum": "Juni-13",
+      "Chefredakteur(-e)": "Louise Dittmar",
+      "Umschlag/Innenteil": "Farbe/SW",
+      "Preis": "0,50 €",
+      "Auflage": 300
+    },
+    {
+      "Ausgabe": "Sonderbeilage 69",
+      "Thema": "[Ohne Titel]",
+      "Seitenzahl": "8",
+      "Innenteil": "SW"
+    },
+    {
+      "Ausgabe": "70",
+      "Thema": "[Ohne Titel]",
+      "Seitenzahl": "12 (A4)",
+      "Erscheinungsdatum": "Sept.-13",
+      "Chefredakteur(-e)": "Louise Dittmar",
+      "Umschlag/Innenteil": "SW/SW",
+      "Preis": "0,30 €",
+      "Auflage": 250
+    },
+    {
+      "Ausgabe": "71",
+      "Thema": "Mysterien der Schule",
+      "Seitenzahl": "64",
+      "Erscheinungsdatum": "Feb.-14",
+      "Chefredakteur(-e)": "Louise Dittmar",
+      "Umschlag/Innenteil": "Farbe/SW",
+      "Preis": "0,50 €",
+      "Auflage": 200
+    },
+    {
+      "Ausgabe": "72",
+      "Thema": "Wissenschaft und Religion",
+      "Seitenzahl": "68",
+      "Erscheinungsdatum": "Sept.-14",
+      "Chefredakteur(-e)": "Patrick Geneit",
+      "Umschlag/Innenteil": "Farbe/SW",
+      "Preis": "0,50 €",
+      "Auflage": 200
+    },
+    {
+      "Ausgabe": "73",
+      "Thema": "Internet",
+      "Seitenzahl": "52",
+      "Erscheinungsdatum": "Dez.-14",
+      "Chefredakteur(-e)": "Patrick Geneit",
+      "Umschlag/Innenteil": "Farbe/SW",
+      "Preis": "0,50 €",
+      "Auflage": 200
+    },
+    {
+      "Ausgabe": "74",
+      "Thema": "Was ist Revolution?",
+      "Seitenzahl": "72",
+      "Erscheinungsdatum": "März-15",
+      "Chefredakteur(-e)": "Karl Bendler, Richard Bendler",
+      "Umschlag/Innenteil": "Farbe/SW",
+      "Preis": "0,50 €",
+      "Auflage": 300
+    },
+    {
+      "Ausgabe": "75",
+      "Thema": "Jubiläum: 75 Ausgaben",
+      "Seitenzahl": "52",
+      "Erscheinungsdatum": "Juli-15",
+      "Chefredakteur(-e)": "Karl Bendler, Richard Bendler",
+      "Umschlag/Innenteil": "Farbe/Farbe",
+      "Preis": "1,00 €",
+      "Auflage": 300
+    },
+    {
+      "Ausgabe": "76",
+      "Thema": "Drogen",
+      "Seitenzahl": "40",
+      "Erscheinungsdatum": "Nov.-15",
+      "Chefredakteur(-e)": "Karl Bendler, Richard Bendler",
+      "Umschlag/Innenteil": "Farbe/Farbe",
+      "Preis": "1,00 €",
+      "Auflage": 300
+    },
+    {
+      "Ausgabe": "77",
+      "Thema": "Sex und Sexismus",
+      "Seitenzahl": "52",
+      "Erscheinungsdatum": "Apr.-16",
+      "Chefredakteur(-e)": "Karl Bendler, Richard Bendler",
+      "Umschlag/Innenteil": "Farbe/Farbe",
+      "Preis": "1,00 €",
+      "Auflage": 300
+    },
+    {
+      "Ausgabe": "78",
+      "Thema": "Musik",
+      "Seitenzahl": "52",
+      "Erscheinungsdatum": "Nov.-16",
+      "Chefredakteur(-e)": "Karl Bendler, Richard Bendler",
+      "Umschlag/Innenteil": "Farbe/Farbe",
+      "Preis": "1,00 €",
+      "Auflage": 300
+    },
+    {
+      "Ausgabe": "79",
+      "Thema": "Essen",
+      "Seitenzahl": "60",
+      "Erscheinungsdatum": "März-17",
+      "Chefredakteur(-e)": "Karl Bendler, Richard Bendler",
+      "Umschlag/Innenteil": "Farbe/Farbe",
+      "Preis": "1,00 €",
+      "Auflage": 300
+    },
+    {
+      "Ausgabe": "80",
+      "Thema": "Medien",
+      "Seitenzahl": "68",
+      "Erscheinungsdatum": "Mai-18",
+      "Chefredakteur(-e)": "Richard Bendler",
+      "Umschlag/Innenteil": "Farbe/Farbe",
+      "Preis": "1,00 €",
+      "Auflage": 500
+    },
+    {
+      "Ausgabe": "82",
+      "Thema": "Mythen",
+      "Seitenzahl": null,
+      "Erscheinungsdatum": "kek",
+      "Chefredakteur(-e)": "Paul Siewert, Elias Saad",
+      "Umschlag/Innenteil": "Farbe/Farbe",
+      "Preis": "1,00 €",
+      "Auflage": null
+    }
+  ]
+}
