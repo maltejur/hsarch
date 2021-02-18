@@ -269,7 +269,7 @@ iframe {
     width: 100% !important;
     max-width: 25em !important;
     float: none !important;
-    margin-left: calc(100% - 2em) !important;
+    /*margin-left: calc(100% - 2em) !important;*/
     margin-right: calc(100% - 2em) !important;
     margin-bottom: 2em !important;
   }
