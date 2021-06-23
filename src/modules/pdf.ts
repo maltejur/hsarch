@@ -1,4 +1,3 @@
-import { from } from "core-js/fn/array";
 import json from "../../assets/data.json";
 import type { Params } from "../models";
 

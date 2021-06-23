@@ -2,19 +2,17 @@
   "name": "hsarch",
   "version": "1.0.0",
   "repository": "https://github.com/maltejur/hsarch.git",
-  "author": "maltejur <48161361+maltejur@users.noreply.github.com>",
+  "author": "maltejur <maltejur@web.de>",
   "license": "MIT",
-  "devDependencies": {
-    "gh-pages": "^3.1.0",
-    "parcel-bundler": "^1.12.4",
-    "typescript": "^4.0.5"
-  },
   "scripts": {
-    "dev": "parcel src/index.html",
+    "dev": "parcel serve src/index.html",
     "build": "parcel build src/index.html"
   },
   "dependencies": {
     "nprogress": "^0.2.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0-beta.2"
   },
   "browserslist": [
     "since 2017-06"

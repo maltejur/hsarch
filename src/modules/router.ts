@@ -33,7 +33,6 @@ export default class Router {
           if (routeSplit[i] != undefined && routeSplit[i][0] == ":") {
             if (routeSplit[i][1] == ":") {
               params[routeSplit[i].substr(2)] = hashSplit.slice(i).join("/");
-              console.log(route);
               break;
             } else {
               params[routeSplit[i].substr(1)] = decodeURIComponent(

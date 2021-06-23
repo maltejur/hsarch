@@ -7,8 +7,8 @@ export default function HomeHertzblatt() {
 
   json.hertzblatt.forEach((i) => {
     html += `
-      <a class="module" href="#hertzblatt/${i.Name}">
-          <img src="${json.baseUrl}hertzblatt/images/${i.Name}.jpg" class="moduleImg"></img>
+      <a class="module" href="#hertzblatt/${i.Ausgabe}">
+          <img src="${json.baseUrl}hertzblatt/images/${i.Ausgabe}.jpg" class="moduleImg"></img>
           <div class="moduleLabel">
               <h2>${i.Name}</h2>
           </div>

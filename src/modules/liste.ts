@@ -5,7 +5,7 @@ export default function Liste() {
   const ret = document.createElement("div");
 
   let listehtml =
-    "<h1>Artikelliste</h1><table><tr><th>Ausgabe</th><th>Thema</th></tr>";
+    "<h1>Alle Ausgaben</h1><table><tr><th>Ausgabe</th><th>Thema</th></tr>";
   json.hertzschlag.forEach((i) => {
     listehtml =
       listehtml +
